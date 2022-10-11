@@ -1,0 +1,19 @@
+{
+	"id": "cosmos.find.ott.app",
+	"version": "1.0.0",
+	"vendor": "COSMOS",
+	"type": "web",
+	"main": "index.html",
+	"title": "COSMOS OTT",
+	"icon": "icon.png",
+	"miniicon": "icon-mini.png",
+	"largeIcon": "icon-large.png",
+	"uiRevision": 2,
+	"allowVideoCapture": true,
+	"allowAudioCapture": true,
+	"enableWebOSVDA": true,
+	"requiredPermissions" : [
+		"cosmos.find.hometraining.app.service.group",
+		"notification.operation"
+	]
+}
